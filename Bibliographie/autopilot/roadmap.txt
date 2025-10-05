@@ -1,0 +1,3 @@
+C++ >> RTOS >> Embedded Circuits >> Micro Controller (communication languages)
+
+Machine Learning built-in
