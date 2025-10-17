@@ -5,3 +5,18 @@ https://www.youtube.com/watch?v=xSOaeSd1AlM
 https://www.youtube.com/watch?v=4dmrahCJonM
 https://www.youtube.com/watch?v=npgZJ3E_Y-w
 https://www.youtube.com/watch?v=PlKeFj5teo4 - REALLY NICE
+
+https://ardupilot.org/ardupilot/?utm_source=chatgpt.com - entry point for Copter/Plane/Rover, setup, tuning, and parameters.
+https://ardupilot.org/dev/?utm_source=chatgpt.com – architecture, building from source, SITL/HIL, code internals.
+https://ardupilot.org/dev/docs/SITL-setup-landingpage.html?utm_source=chatgpt.com - step-by-step for Linux/Windows (you’ll use this a lot).
+https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html?utm_source=chatgpt.com – running, changing environments, failure injection.
+http://ardupilot.org/plane/docs/parameters.html?utm_source=chatgpt.com – where you’ll live during flight tests.
+https://ardupilot.org/plane/docs/navigation-tuning.html?utm_source=chatgpt.com - ArduPlane navigation tuning
+https://ardupilot.org/dev/docs/rover-L1.html?utm_source=chatgpt.com - L1 controller overview
+https://ardupilot.org/plane/docs/guided-mode.html?utm_source=chatgpt.com – how to send position/velocity/heading targets from a companion or GCS
+MAVLink commands in GUIDED
+https://ardupilot.org/dev/docs/plane-commands-in-guided-mode.html?utm_source=chatgpt.com – UI tour, workflows.
+https://ardupilot.org/copter/docs/initial-setup.html?utm_source=chatgpt.com – calibrations, wiring checks, first flights.
+https://ardupilot.org/copter/docs/common-lua-scripts.html?utm_source=chatgpt.com – enable scripts, examples, safety sandbox.
+https://ardupilot.org/plane/docs/common-scripting-parameters.html?utm_source=chatgpt.com – change/tune params in flight (e.g., lookahead or WP radius)
+https://ardupilot.org/copter/docs/common-scripting-step-by-step.html?utm_source=chatgpt.com - Step-by-step script usage

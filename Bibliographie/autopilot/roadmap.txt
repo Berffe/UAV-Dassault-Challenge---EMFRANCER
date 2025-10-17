@@ -1,3 +1,84 @@
 C++ >> RTOS >> Embedded Circuits >> Micro Controller (communication languages)
 
 Machine Learning built-in
+
+*** PIXHAWK 6C DATA SHEET:
+Processors & Sensors
+
+    FMU Processor: STM32H743
+        32 Bit Arm® Cortex®-M7, 480MHz, 2MB memory, 1MB SRAM
+    IO Processor: STM32F103
+        32 Bit Arm® Cortex®-M3, 72MHz, 64KB SRAM
+    On-board sensors
+        Accel/Gyro: ICM-42688-P
+        Accel/Gyro: BMI088 (BMI055 discontinued due to the end of production of the sensor)
+        Mag: IST8310
+        Barometer: MS5611
+
+Electrical data
+
+    Voltage Ratings:
+        Max input voltage: 6V
+        USB Power Input: 4.75~5.25V
+        Servo Rail Input: 0~36V
+    Current Ratings:
+        Telem1 & GPS2 combined current limit: 1.5A
+        All other ports combined current limit: 1.5A
+    Operating Temperature: -25-85°C
+
+Mechanical data
+
+    Dimensions: 84.8 * 44 * 12.4 mm
+    Weight (Aluminum Case) : 59.3g
+    Weight (Plastic Case) : 34.6g
+
+*** PIXHAWK 6C MINI DATA SHEET:
+Processors & Sensors
+
+    FMU Processor: STM32H743
+        32 Bit Arm® Cortex®-M7, 480MHz, 2MB memory, 1MB SRAM
+    IO Processor: STM32F103
+        32 Bit Arm® Cortex®-M3, 72MHz, 64KB SRAM
+    On-board sensors
+        Accel/Gyro: ICM-42688-P
+        Accel/Gyro: BMI088 (BMI055 discontinued due to the end of production of the sensor)
+        Mag: IST8310
+        Barometer: MS5611
+
+Electrical data
+
+    Voltage Ratings:
+        Max input voltage: 6V
+        USB Power Input: 4.75~5.25V
+        Servo Rail Input: 0~36V
+        The new version Model A now provides a more stable PWM signal when underload
+    Current Ratings:
+        Telem1 & GPS2 combined current limit: 1.5A
+        All other ports combined current limit: 1.5A
+    Operating temperature: -40 ~ 85°c
+
+Mechanical data
+
+    Dimensions (Model A Legacy): 53.3 * 39 * 16.2 mm
+    Dimensions (Model A Current): 54.3x39x17.5 mm
+    Dimensions (Model B): 58.3x39x18.15 mm
+    Weight (Model A Legacy): 39.2g
+    Weight (Model A Current): 42.4g
+    Weight (Model B): 46.8g
+
+*** LE PLUS IMPORTANTS DIFFÉRENCES
+La plaque mini est plus compacte et plus légère, en plus, elle a une PWM Header déjà built-in. Par contre, elle n'a pas:
+
+	Power2 Port
+
+	Telem3 Port
+
+	SBUS Out Port
+
+	IO Debug Port
+
+	4pin USB Port (JST-GH)
+
+	FMU PWM CH7 & CH8
+
+
